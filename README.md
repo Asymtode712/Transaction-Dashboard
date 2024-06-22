@@ -17,7 +17,7 @@ Transaction dashboard is a assignment project made using the MERN stack (MongoDB
 3. **Install the dependencies:**
 
    ```bash
-   npm i
+   npm install-all
    ```
 
 ## Run
@@ -31,7 +31,16 @@ Transaction dashboard is a assignment project made using the MERN stack (MongoDB
    ```bash
    node server.js
    ```
-   
+
+**For Frontend:**
+
+   ```bash
+   cd frontend
+   ```
+
+   ```bash
+   npm start
+   ```   
 
 ## API Endpoints:
 
