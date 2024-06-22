@@ -1,12 +1,14 @@
 const express = require('express');
-const cors = require('cors');
 const mongoose = require('mongoose');
 const transRoutes = require('./routes/transRoutes');
 const dotenv = require('dotenv');
+const cors = require('cors');
 
 dotenv.config();
 
 const app = express();
+
+app.use(cors());
 
 // Connect to MongoDB
 const connectDB = async () => {
